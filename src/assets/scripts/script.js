@@ -25,7 +25,7 @@ if (hamburger) {
    hamburger.addEventListener('click', () => {
       hamburger.classList.toggle('active')
       nav.classList.toggle('show')
-      bodyLock.classList.toggle('show')
+      bodyLock.classList.toggle('lock')
    })
 }
 
@@ -55,7 +55,7 @@ function navigationScroll(event) {
          if (hamburger.classList.contains('active')) {
             hamburger.classList.remove('active')
             nav.classList.remove('show')
-            bodyLock.classList.remove('show')
+            bodyLock.classList.remove('lock')
          }
 
 
