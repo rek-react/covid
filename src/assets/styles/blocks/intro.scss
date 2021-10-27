@@ -1,0 +1,54 @@
+.intro {
+   padding: 160px 0;
+   @media (max-width: 767px) {
+      padding: 100px 0 60px;
+   }
+   @media (max-width: 425px) {
+      padding: 80px 0 40px;
+   }
+   &__play-video {
+      font-family: "Rubik";
+      margin-top: 120px;
+      flex: 1 1 100%;
+      position: relative;
+      padding-left: 70px;
+      &::before {
+         cursor: pointer;
+         content: "";
+         border: 1px solid $blue;
+         position: absolute;
+         left: 0;
+         top: -10px;
+         width: 55px;
+         height: 55px;
+         display: block;
+         z-index: 1;
+         border-radius: 50%;
+      }
+      &::after {
+         content: "";
+         position: absolute;
+         left: 23.5px;
+         top: 9.5px;
+         width: 14px;
+         height: 14px;
+         display: block;
+         background: url("../images/intro/arrow.png") no-repeat;
+      }
+      @media (max-width: 767px) {
+         margin-top: 60px;
+      }
+      @media (max-width: 767px) {
+         margin-top: 40px;
+      }
+   }
+   &__title {
+      font-size: 13px;
+      letter-spacing: 2px;
+      color: #b0b0b0;
+   }
+   &__sup-title {
+      margin-top: 8px;
+      text-transform: uppercase;
+   }
+}
