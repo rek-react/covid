@@ -1,4 +1,28 @@
-@include font("Raleway", "Raleway-VariableFont_wght", "700", "normal");
-@include font("Raleway", "Raleway-Bold-VariableFont_wght", "800", "normal");
-@include font("Rubik", "Rubik-Bold-VariableFont_wght", "800", "normal");
-@include font("Rubik", "Rubik-VariableFont_wght", "700", "normal");
+@font-face{
+	font-family: Raleway;
+	font-display: swap;
+	src: url("../fonts/Raleway-Bold-VariableFont_wght.woff2") format("woff2"), url("../fonts/Raleway-Bold-VariableFont_wght.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: Raleway;
+	font-display: swap;
+	src: url("../fonts/Raleway-VariableFont_wght.woff2") format("woff2"), url("../fonts/Raleway-VariableFont_wght.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Rubik;
+	font-display: swap;
+	src: url("../fonts/Rubik-Bold-VariableFont_wght.woff2") format("woff2"), url("../fonts/Rubik-Bold-VariableFont_wght.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: Rubik;
+	font-display: swap;
+	src: url("../fonts/Rubik-VariableFont_wght.woff2") format("woff2"), url("../fonts/Rubik-VariableFont_wght.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}

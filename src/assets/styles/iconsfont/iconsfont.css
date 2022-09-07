@@ -1,9 +1,9 @@
 @font-face {
    font-family: "icomoon";
-   src: url("../../icon/icomoon.eot?17w28i");
-   src: url("../../icon/icomoon.eot?17w28i#iefix") format("embedded-opentype"),
-      url("../../icon/icomoon.ttf?17w28i") format("truetype"), url("../../icon/icomoon.woff?17w28i") format("woff"),
-      url("../../icon/icomoon.svg?17w28i#icomoon") format("svg");
+   src: url("../icon/icomoon.eot?17w28i");
+   src: url("../icon/icomoon.eot?17w28i#iefix") format("embedded-opentype"),
+      url("../icon/icomoon.ttf?17w28i") format("truetype"), url("../icon/icomoon.woff?17w28i") format("woff"),
+      url("../icon/icomoon.svg?17w28i#icomoon") format("svg");
    font-weight: normal;
    font-style: normal;
    font-display: block;
@@ -29,14 +29,17 @@
    content: "\e900";
    color: #ec5863;
 }
+
 .icon-human:before {
    content: "\e901";
    color: #ec5863;
 }
+
 .icon-hurt:before {
    content: "\e902";
    color: #ec5863;
 }
+
 .icon-logo:before {
    display: inline-block;
    content: "\e903";

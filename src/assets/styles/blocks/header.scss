@@ -3,13 +3,14 @@
    left: 0;
    top: 0;
    width: 100%;
+
    &.fixed {
       position: fixed;
       left: 0;
       top: 0;
       width: 100%;
       background-color: #fff;
-      z-index: 99;
+      z-index: 100;
       box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
    }
 
@@ -18,48 +19,58 @@
       justify-content: space-between;
       height: 85px;
       align-items: center;
+
       @media (max-width: 425px) {
          height: 60px;
       }
    }
+
    &__logo {
       font-size: 20px;
       display: inline-flex;
       align-items: center;
       color: #000;
+
       &::before {
          margin-right: 10px;
          font-size: 40px;
       }
+
       span {
          font-family: "Rubik";
          font-weight: 700;
+
          span {
             color: #ec5863;
          }
       }
+
       @media (max-width: 767px) {
          order: 1;
          z-index: 2;
       }
+
       @media (max-width: 425px) {
          span {
             display: none;
          }
       }
    }
+
    &__hamburger-menu {
       @media (max-width: 767px) {
          order: 3;
          z-index: 1;
       }
    }
+
    &__download {
       @media (max-width: 767px) {
          order: 2;
          z-index: 2;
       }
    }
+
    &__nav {
       @media (max-width: 767px) {
          order: 4;
